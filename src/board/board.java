@@ -8,6 +8,7 @@ public class board {
     int cnt = 1;
     
     public void insert() {
+<<<<<<< HEAD
     	String[] bod = new String[3];
     	System.out.print("아이디를 입력해주세요 : ");
     	bod[0] = sc.next();
@@ -17,6 +18,8 @@ public class board {
     	bod[3] = sc.nextLine();
     	
     	board.put(cnt++, bod);
+=======
+>>>>>>> b26988a5c07bfad6b38721879b19f735f521d10f
     	
     }
 
