@@ -14,18 +14,41 @@ public class Main {
         member member = new member();
         event event = new event();
 
+        /*
+            1. 회원 관리 (가입, 검색, 탈퇴)
+            2. 게시글 관리 (작성, 삭제, 검색)
+            3. 댓글 관리 (작성, 삭제, 검색)
+            4. 이벤트 (추가, 삭제, 추첨)
+        */
+
         int cmd;
         boolean flag = true;
 
         while (flag) {
-            System.out.print("\n명령어 입력\n>> ");
+            System.out.print("\n1. 회원관리(가입, 검색, 탈퇴)\n2. 게시글 관리(작성, 검색, 삭제)\n3. 댓글 관리(작성, 검색, 삭제)\n4. 이벤트(추가, 삭제, 추첨)\n5. 프로그램 종료\n명령어 입력\n>> ");
             cmd = sc.nextInt();
 
             switch (cmd) {
+                case 1 :
+                    // 내용
+                    break;
+                case 2 :
+                    // 내용
+                    break;
+                case 3 :
+                    // 내용
+                    break;
+                case 4 :
+                    // 내용
+                    break;
+                case 5 :
+                    flag = false;
+                    System.out.print("\n프로그램 종료\n");
+                    break;
                 default :
+                    System.out.print("\n올바른 명령어를 입력하세요.\n");
                     break;
             }
-            break;
         }
 
     }
