@@ -4,19 +4,7 @@ import java.util.*;
 
 public class member {
     public Map<Integer, String[]> member = new HashMap<>();
-<<<<<<< HEAD
-
-    public void join() {
-
-    }
-
-    public void drop() {
-
-    }
-
-    public void search() {
-
-=======
+    
     int cnt = 1;
   	Scanner sc = new Scanner(System.in);
   	
@@ -64,6 +52,5 @@ public class member {
 			}
 		}
 		System.out.print("아이디가 존재하지 않습니다.");
->>>>>>> 346110cf50dfbac22c2ab2c204f6c072b3359fb9
     }
 }

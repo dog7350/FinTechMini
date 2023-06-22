@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-package comment;
-
-import java.util.*;
-
-public class comment {
-    public Map<Integer, String[]> comment = new HashMap<>();
-
-    public void insert() {
-
-    }
-
-    public void delete() {
-
-    }
-
-    public void search() {
-
-    }
-=======
 package comment; //댓글관리(작성,삭제, 검색)
 
 import java.util.*;
@@ -69,8 +49,5 @@ public class comment {
     	}
     	
     	System.out.println("없습니다.");
-    	
     }
-    
->>>>>>> 346110cf50dfbac22c2ab2c204f6c072b3359fb9
 }
