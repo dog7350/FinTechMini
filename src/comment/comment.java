@@ -8,14 +8,15 @@ public class comment {
     public Map<Integer, Object[]> comment = new HashMap<>();	
     private int cno = 1;//댓글번호
 
-    public void insert(String id, int bno) {//게시글종속, 게시글번호,
+    public void insert() {//아이디, 게시글번호
     	Object[] obj = new Object[3];
-    	obj[0]=bno;//게시글번호
-    	obj[1]=id;//아이디
+    	obj[0]=input.nextInt();//게시글번호
+    	obj[1]=input.next();//아이디
+    	
     	System.out.println("댓글을 입력하세요\n>> ");
     	obj[2]=input.next();//댓글입력
     	comment.put(cno++,obj);
-    	System.out.println(comment.get(bno)[2]);
+    	
     }
 
     public void delete(member member) {

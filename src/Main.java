@@ -20,7 +20,7 @@ public class Main {
             3. 댓글 관리 (작성, 삭제, 검색)
             4. 이벤트 (추가, 삭제, 추첨)
 		*/
-
+		
 		int cmd;
 		boolean flag = true;
 
