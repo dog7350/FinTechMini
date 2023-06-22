@@ -21,6 +21,12 @@ public class Main {
             4. 이벤트 (추가, 삭제, 추첨)
         */
 
+        
+        comment.insert("jaeyeon", 1);
+        
+        
+        
+        /*
         int cmd;
         boolean flag = true;
 
@@ -60,6 +66,7 @@ public class Main {
                     break;
             }
         }
+        */
 
     }
 }
