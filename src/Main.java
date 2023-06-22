@@ -32,8 +32,22 @@ public class Main {
                 case 1 :
                     // 내용
                     break;
-                case 2 :
-                    // 내용
+                case 2 : {
+                	System.out.print("1.작성, 2.검색, 3.삭제");
+                	int gesi = sc.nextInt(); 
+                	switch(gesi) {
+                	case 1 :
+                		board.insert();
+                	case 2 :
+                		board.delete();
+                	case 3 :
+                		board.search();
+                	default :
+                		System.out.println("잘못 입력하셨습니다.");
+                		break;	
+                	}
+                }
+                 
                     break;
                 case 3 :
                     // 내용
