@@ -22,7 +22,7 @@ public class Main {
         */
 
         
-        comment.insert("jaeyeon", 1);
+        
         
         
         
@@ -65,8 +65,17 @@ public class Main {
                 }
                  
                     break;
-                case 3 :
-                    // 내용
+                case 3 :{
+                	System.out.println("1.작성 2.삭제 3.검색");
+                	cmd=sc.nextInt();
+                	switch(cmd) {
+                	case 1:comment.insert();
+                	case 2:comment.delete(member);
+                	case 3:comment.search(member);
+                		default:System.out.println("다시입력.");
+                	}
+                }
+                	
                     break;
                 case 4 :
                     // 내용
