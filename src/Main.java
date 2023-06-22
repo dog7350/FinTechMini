@@ -30,7 +30,17 @@ public class Main {
 
             switch (cmd) {
                 case 1 :
-                    // 내용
+                	System.out.print("\n1.가입, 2.검색, 3.탈퇴\n명령어 입력\n>>");
+                	cmd = sc.nextInt();
+                    
+                	switch(cmd) {
+                	case 1 : member.join(); break;
+                	case 2: member.search(); break;
+                	case 3 : member.drop(); break;
+                	default :
+                        System.out.print("\n올바른 명령어를 입력하세요.\n");
+                        break;
+                	}
                     break;
                 case 2 :
                     // 내용
