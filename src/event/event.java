@@ -1,6 +1,7 @@
 package event;
 
 import java.util.*;
+<<<<<<< HEAD
 import member.member;
 
 public class event {
@@ -77,5 +78,21 @@ public class event {
     		System.out.println("이밴트 내용\n" + event.get(key)[1] + "\n");
     		num++;
     	}
+=======
+
+public class event {
+    public Map<Integer, Object[]> event = new HashMap<>();
+
+    public void add() {
+
+    }
+
+    public void delete() {
+
+    }
+
+    public void exec() {
+
+>>>>>>> 346110cf50dfbac22c2ab2c204f6c072b3359fb9
     }
 }
